@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <div class="Interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="Imagens/Logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav></nav>
+            <div class="btn-contato">
+                <a href="#contato">
+                    <button>Contato</button>
+                </a>
+                
+        </div>
+    </header>
+    
+    <main>
+        <section id="inicio" class="topo-do-site">
+            <div class="Interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
+                        <p>Sou um desenvolvedor apaixonado por criar soluções digitais inovadoras.</p>
+                        <a href="#contato" class="btn-contato"><button>Entre em contato</button></a>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="Imagens/Foto.png" alt="Minha Foto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="especialidades" class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Criação de sites responsivos e otimizados para diversas plataformas.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-js"></i>
+                        <h3>Java</h3>
+                        <p>Desenvolvimento de aplicações robustas utilizando Java e Spring Boot.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-py"></i>
+                        <h3>Python</h3>
+                        <p>Automação, análise de dados e desenvolvimento de aplicações com Python.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="interface">
+                <h2 class="titulo">SOBRE <span>MIM.</span></h2>
+                <p>Sou um desenvolvedor em início de carreira, sempre buscando aprender novas tecnologias e aprimorar minhas habilidades.</p>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+                <div class="flex">
+                    <div class="projeto-box">
+                        <img src="Imagens/projeto1.jpg" alt="Projeto 1">
+                        <h3>Projeto 1</h3>
+                        <p>Descrição breve do projeto.</p>
+                    </div>
+                    <div class="projeto-box">
+                        <img src="Imagens/projeto2.jpg" alt="Projeto 2">
+                        <h3>Projeto 2</h3>
+                        <p>Descrição breve do projeto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="interface">
+                <h2 class="titulo">ENTRE EM <span>CONTATO.</span></h2>
+                <form action="mailto:guilhermelanga11@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="nome" placeholder="Seu Nome" required>
+                    <input type="email" name="email" placeholder="Seu Email" required>
+                    <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
